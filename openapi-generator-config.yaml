@@ -1,0 +1,13 @@
+generatorName: spring
+outputDir: target
+inputSpec: swagger.yaml
+additionalProperties:
+  delegatePAttern: true
+  dateLibrary: java8
+  artifactId: spring-stubs
+  interfaceOnly: true
+  singleContentTypes: true
+  hideGenerationTimestamp: true
+  reactive: false
+  apiPackage: com.swagger.openapi.codegen
+  modelPackage: com.swagger.openapi.codegen.model
